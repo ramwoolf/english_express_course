@@ -3,3 +3,10 @@
 *.log
 *.pdf
 *.synctex.gz
+*.bbl
+*blg
+*idx
+*.maf
+*.mtc*
+*.toc
+*.bib
