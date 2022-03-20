@@ -20,6 +20,7 @@
 %--------------------------------------------------------------------------
 \RequirePackage[russian]{babel}
 \RequirePackage[utf8]{inputenc}
+\RequirePackage{multirow}
 
 % Geometry
 %--------------------------------------------------------------------------
@@ -242,6 +243,12 @@ contents={\includegraphics[width=\paperwidth,height=\paperheight]{cover}}}
  colback=black!5,colframe=tsorange]}
 {\end{tcolorbox}}
 
+\newenvironment{boxgrammar}
+{\begin{tcolorbox}
+[enhanced jigsaw,breakable,pad at break*=1mm,
+colback=black!5,colframe=tsorange]}
+{\end{tcolorbox}}
+
 \newenvironment{boxdefinition}
 {\begin{tcolorbox}
 [enhanced jigsaw,breakable,pad at break*=1mm,
@@ -297,14 +304,16 @@ contents={\includegraphics[width=\paperwidth,height=\paperheight]{cover}}}
 
 \theoremstyle{styledefinition}
 \newtheorem{envdefinition}{Definition}[chapter]
+
 \theoremstyle{styletheorem}
-\newtheorem{envtheorem}{Theorem}[chapter]
+\newtheorem{envtheorem}{Grammar}[chapter]
 \newtheorem{envlemma}{Lemma}[chapter]
+
 \theoremstyle{styleexercise}
 \newtheorem{envexercise}{Exercise}[chapter]
 \newtheorem{envproblem}{Problem}[chapter]
 \newtheorem{envprogramming}{Computer exercise}[chapter]
-\newtheorem{envexample}{Exempel}[chapter]
+\newtheorem{envexample}{Example}[chapter]
 
 % Environments for theorems
 %--------------------------------------------------------------------------
@@ -323,6 +332,7 @@ contents={\includegraphics[width=\paperwidth,height=\paperheight]{cover}}}
 \newenvironment{lemma}
                {\begin{boxtheorem}\begin{envlemma}}
                {\end{envlemma}\end{boxtheorem}}
+
 
 \newenvironment{exercise}
                {\begin{boxexercise}\begin{envexercise}}
