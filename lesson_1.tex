@@ -9,85 +9,99 @@
 	%---------------------------------------------------------------------------
 	\chapter{Lesson 1}
 	
-	\section{First section}
+	\section{Alphabet and transcription}
 	
-	Let's start out with the following theorem.
+	\textcolor{orange}{\LARGE A B C D E F G H I J K L M N O P Q R S T U V W X Y Z}
 	
-	\begin{theorem}[Logic algebra]
-		\label{th:logicalgebra}
-		\index{logic algebra}
-		Let $P$, $Q$ and $R$ be logical propositions (true or false).
-		Then the following propositions are true:
-		\small
+	\begin{theorem}[Transcription]
+		\label{th:transcription}
+		\index{trancription}
+		Основные правила транскрипции:
 		\begin{align*}
-			P \land Q &\Leftrightarrow Q \land P &
-			P \lor  Q &\Leftrightarrow Q \lor P  &&
-			\text{(commutative laws)} \\
-			(P \land Q) \land R &\Leftrightarrow P \land (Q \land R) &
-			(P \lor Q)  \lor  R &\Leftrightarrow P \lor  (Q \lor  R) &&
-			\text{(associative laws)} \\
-			P \land (Q \lor  R) &\Leftrightarrow (P \land Q) \lor  (P \land R) &
-			P \lor  (Q \land R) &\Leftrightarrow (P \lor  Q) \land (P \lor  R) &&
-			\text{(distributive laws)} \\
-			\lnot (P \land Q) &\Leftrightarrow \lnot P \lor  \lnot Q &
-			\lnot (P \lor  Q) &\Leftrightarrow \lnot P \land \lnot Q &&
-			\text{(De Morgan's laws)}
+			CH &\Leftrightarrow \text{[Ч], иногда [К]} & SH &\Leftrightarrow \text{[Ш]} && AL \Leftrightarrow \text{[O]}  \\
+			OO &\Leftrightarrow \text{[У]} & EE &\Leftrightarrow \text{[И]} && OU \& OW \Leftrightarrow \text{[АУ], [У]} \\
+			*ING &\Leftrightarrow \text{[ИН]} &
+			KH &\Leftrightarrow \text{[Х]} &&
+			*EW* \Leftrightarrow \text{[*ЬЮ*]} \\
+			*E &\Leftrightarrow \text{не читается} &
+			TH &\Leftrightarrow \text{среднее между [Д] и [С]} &&
+			*GH(T)* \Leftrightarrow \text{*(Т)*} \\ 
+			TION & \Leftrightarrow \text{[ШН]} && SION \Leftrightarrow \text{[ШН]} && CK \Leftrightarrow \text{[К]} \\
+			KN* & \Leftrightarrow \text{[Н*]} && QU \Leftrightarrow \text{[КВ]} && PH \Leftrightarrow \text{[Ф]}
 		\end{align*}
 	\end{theorem}
-	
-	\section{Second section}
-	
-	We begin our next section with the following central definition.
-	
-	\begin{definition}[Rational Cauchy sequence]
-		\label{th:rationalcauchysequence}
-		\index{rational Cauchy sequence}
-		A rational Cauchy sequence is a rational sequence
-		$(x_n)_{n=0}^{\infty}$ such that
-		\begin{equation}
-			\forall \epsilon \in \mathbb{Q}_+ \;
-			\exists N \in \mathbb{N} : m, n \geq N \Rightarrow |x_m - x_n| < \epsilon.
-		\end{equation}
-		In other words, for each (small) rational number $\epsilon > 0$
-		there is a (big) number $N$ such that the distance $|x_m - x_n|$
-		between $x_m$ and $x_n$ is less than $\epsilon$ if both $m$ and $n$
-		are larger than or equal to $N$.
-	\end{definition}
-	
-	\begin{remark}
-		A remark may be in order here. This definition is concerned with
-		\emph{rational} Cauchy sequences. We will later encounter a similar
-		definition of \emph{real} Cauchy sequences.
-	\end{remark}
-	
-	\begin{example}[Solving the equation $x^2 = 2$]
-		Consider the equation $x^2 = 2$. It is easy to prove that this
-		equation does not have any rational solutions. However, consider
-		the following iteration formula:
-		\begin{equation}
-			x_n = \frac{x_{n-1} + 2 / x_{n - 1}}{2},
-		\end{equation}
-		where $n = 1,2,3,\ldots$ and $x_0 = 1$. The resulting sequence of
-		rational numbers quickly approaches a number in the vicinity of
-		$x = 1.4142135623731$:
-		\begin{displaymath}
-			\begin{array}{rclcl}
-				x_0 &=& 1 \\
-				x_{1} &=& (x_{0} + 2 / x_{0}) / 2 &=& 1.5 \\
-				x_{2} &=& (x_{1} + 2 / x_{1}) / 2 &\approx& 1.4166666666667 \\
-				x_{3} &=& (x_{2} + 2 / x_{2}) / 2 &\approx& 1.4142156862745 \\
-				x_{4} &=& (x_{3} + 2 / x_{3}) / 2 &\approx& 1.4142135623747 \\
-				x_{5} &=& (x_{4} + 2 / x_{4}) / 2 &\approx& 1.4142135623731 \\
-				x_{6} &=& (x_{5} + 2 / x_{5}) / 2 &\approx& 1.4142135623731 \\
-				x_{7} &=& (x_{6} + 2 / x_{6}) / 2 &\approx& 1.4142135623731 \\
-				x_{8} &=& (x_{7} + 2 / x_{7}) / 2 &\approx& 1.4142135623731 \\
-				x_{9} &=& (x_{8} + 2 / x_{8}) / 2 &\approx& 1.4142135623731 \\
-				x_{10} &=& (x_{9} + 2 / x_{9}) / 2 &\approx& 1.4142135623731
-			\end{array}
-		\end{displaymath}
-		We will later see that this iteration, or any other equivalent
-		iteration, defines the real number $\sqrt{2}$.
+
+	\begin{example}[Examples of pronouncement]
+		\begin{align*}
+			\text{Chair [чейр] (стул)} && \text{Cash [кэш] (наличные деньги)} \\
+			\text{Book [бук] (книга)} && \text{To sleep [ту слип] (спать)} \\
+			\text{Group [груп] (группа)}  && \text{Enough [инаф] (достаточно)} \\
+			\text{Tower [тауэр] (башня)} && \text{New [нью] (новый)} \\
+			\text{Call [кол] (телефонный звонок)} && \text{drawing [дроуин] (рисование)} \\
+			\text{This [th-ис] (это)} && \text{Thing [th-инг] (вещь)} \\
+			\text{Light [лайт] (свет)} && \text{Table [тейбл] (стол)} \\
+			\text{Revolution [революшн] (революция)} && \text{Profession [профешн] (профессия)} \\
+			\text{Duck [дак] (утка)} && \text{Knowledge [ноуледж] (знания)} \\
+			\text{Quality [кволити] (качество)} && \text{Photography [фотографи] (фотография)}
+		\end{align*}
 	\end{example}
+	
+	\section{Personal Pronouns, verbs and basic structure of sentences}
+	
+	\begin{theorem}[Personal pronouns]
+		\label{th: personal_pronouns}
+		\index{personalpronouns}
+		Личные местоимения:
+		\begin{align*}
+			\text{Single} && \text{Plural}  \\
+			\text{I} \Leftrightarrow \text{Я} && \text{We} \Leftrightarrow \text{Мы} \\
+			\text{You} \Leftrightarrow \text{Ты} && \text{You} \Leftrightarrow \text{Вы} \\
+			\text{He} \Leftrightarrow \text{Он} \\
+			\text{She} \Leftrightarrow \text{Она} && \text{They} \Leftrightarrow \text{Они} \\
+			\text{It} \Leftrightarrow \text{Это} \\
+		\end{align*}
+	\end{theorem}
+
+	\begin{remark}
+		В английском языке нет понятия "Род". У всех объектов общий род. Местоимения He и She лишь указывают на половую принадлежность человека.
+	\end{remark}
+
+	\begin{theorem}
+		\label{th: to_be}
+		\index{tobe}
+		To be - быть:
+		\begin{align*}
+			\text{Single} && \text{Plural}  \\
+			\text{I am} && \text{We are} \\
+			\text{You are} && \text{You are}\\
+			\text{He is}\\
+			\text{She is} && \text{They are} \\
+			\text{It is} \\
+		\end{align*}
+	\end{theorem}
+
+	\begin{theorem} Basic structure of sentences
+	\label{th: basic_structure}
+	\index{basicstructure}
+	
+		Глагол "делать" - to do (did)
+	
+		Глагол "работать" - to work
+		
+		Глагол "видеть" - to see (saw)
+	
+%		\begin{table}
+			\begin{tabular}{|c|c|c|c|c|}
+				\hline
+				& Утверждение & Отрицание & Вопрос & Отр. вопрос \\ \hline
+				Настоящее & \vtop{\hbox{\strut I work}\hbox{\strut He works}\hbox{\strut I see}} &\vtop{\hbox{\strut I do not work}\hbox{\strut He does not work}} & \vtop{\hbox{\strut Do I work?}\hbox{\strut Does he work?}} & \vtop{\hbox{\strut Do not I work?}\hbox{\strut Does not he work?}} \\ \hline
+				Прошедшее & \vtop{\hbox{\strut I worked}\hbox{\strut I saw}} & \vtop{\hbox{\strut I did not work}\hbox{\strut I did not see}} & \vtop{\hbox{\strut Did I work?}\hbox{\strut Did he see?}} & \vtop{\hbox{\strut Did not I work?}\hbox{\strut Did not he see?}}\\ \hline
+				Будущее & \vtop{\hbox{\strut I will work}\hbox{\strut He will work}} & \vtop{\hbox{\strut I will not work}\hbox{\strut He will not work}} & \vtop{\hbox{\strut Will I work?}\hbox{\strut Will he work?}} & \vtop{\hbox{\strut Will not I work?}\hbox{\strut Will not he work?}}\\ \hline
+			\end{tabular}
+%		\end{table}
+	
+	\end{theorem}
+
 	
 	\section{Third section}
 	
