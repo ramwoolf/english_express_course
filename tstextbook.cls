@@ -293,7 +293,7 @@ colback=black!5,colframe=tsorange]}
 \newtheoremstyle{styledefinition}
 {0pt}{0pt}{\normalfont}{0pt}{\small\bf\sffamily\color{black}}{\;}{0.25em}
 {\small\sffamily\color{tsforestgreen}\thmname{#1}
- \nobreakspace\thmnumber{\@ifnotempty{#1}{}\@upn{#2}}
+ \nobreakspace
  \thmnote{\nobreakspace\the\thm@notefont\sffamily\bfseries\color{black} (#3)}}
 
 \newtheoremstyle{styleexercise}
@@ -303,7 +303,7 @@ colback=black!5,colframe=tsorange]}
  \thmnote{\nobreakspace\the\thm@notefont\sffamily\bfseries\color{black} (#3)}}
 
 \theoremstyle{styledefinition}
-\newtheorem{envdefinition}{Definition}[chapter]
+\newtheorem{envdefinition}{}[chapter]
 
 \theoremstyle{styletheorem}
 \newtheorem{envtheorem}{Grammar}[chapter]
@@ -313,7 +313,7 @@ colback=black!5,colframe=tsorange]}
 \newtheorem{envexercise}{Exercise}[chapter]
 \newtheorem{envproblem}{Problem}[chapter]
 \newtheorem{envprogramming}{Computer exercise}[chapter]
-\newtheorem{envexample}{Example}[chapter]
+\newtheorem{envexample}{}[chapter]
 
 % Environments for theorems
 %--------------------------------------------------------------------------
