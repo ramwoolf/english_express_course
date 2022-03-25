@@ -21,6 +21,8 @@
 \RequirePackage[russian]{babel}
 \RequirePackage[utf8]{inputenc}
 \RequirePackage{multirow}
+\RequirePackage{verbatimbox}
+\RequirePackage{fontawesome5}
 
 % Geometry
 %--------------------------------------------------------------------------
@@ -312,7 +314,7 @@ colback=black!5,colframe=tsorange]}
 \theoremstyle{styleexercise}
 \newtheorem{envexercise}{Exercise}[chapter]
 \newtheorem{envproblem}{Problem}[chapter]
-\newtheorem{envprogramming}{Computer exercise}[chapter]
+\newtheorem{envprogramming}{Exercise}[chapter]
 \newtheorem{envexample}{}[chapter]
 
 % Environments for theorems
